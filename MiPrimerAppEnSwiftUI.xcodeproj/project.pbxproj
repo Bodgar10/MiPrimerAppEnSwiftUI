@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		873A3D942AB3DF0E00C1DF78 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873A3D932AB3DF0E00C1DF78 /* User.swift */; };
+		873A3D962AB3DF4D00C1DF78 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873A3D952AB3DF4D00C1DF78 /* UsersView.swift */; };
+		873A3D982AB3DF6E00C1DF78 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873A3D972AB3DF6E00C1DF78 /* UsersViewModel.swift */; };
+		873A3D9A2AB3E45F00C1DF78 /* UsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873A3D992AB3E45F00C1DF78 /* UsersInteractor.swift */; };
 		874B4E802AAA9FCE00EF847F /* MiPrimerAppEnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B4E7F2AAA9FCE00EF847F /* MiPrimerAppEnSwiftUIApp.swift */; };
-		874B4E822AAA9FCE00EF847F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B4E812AAA9FCE00EF847F /* ContentView.swift */; };
+		874B4E822AAA9FCE00EF847F /* HeartAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B4E812AAA9FCE00EF847F /* HeartAnimationView.swift */; };
 		874B4E842AAA9FCF00EF847F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874B4E832AAA9FCF00EF847F /* Assets.xcassets */; };
 		874B4E872AAA9FCF00EF847F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874B4E862AAA9FCF00EF847F /* Preview Assets.xcassets */; };
 		874B4E912AAA9FCF00EF847F /* MiPrimerAppEnSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B4E902AAA9FCF00EF847F /* MiPrimerAppEnSwiftUITests.swift */; };
 		874B4E9B2AAA9FCF00EF847F /* MiPrimerAppEnSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B4E9A2AAA9FCF00EF847F /* MiPrimerAppEnSwiftUIUITests.swift */; };
 		874B4E9D2AAA9FCF00EF847F /* MiPrimerAppEnSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B4E9C2AAA9FCF00EF847F /* MiPrimerAppEnSwiftUIUITestsLaunchTests.swift */; };
+		874B4EAB2AAAA78500EF847F /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B4EAA2AAAA78500EF847F /* LogInView.swift */; };
+		874B4EAD2AAAB96A00EF847F /* LogInPinterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B4EAC2AAAB96A00EF847F /* LogInPinterest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		873A3D932AB3DF0E00C1DF78 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		873A3D952AB3DF4D00C1DF78 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		873A3D972AB3DF6E00C1DF78 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		873A3D992AB3E45F00C1DF78 /* UsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInteractor.swift; sourceTree = "<group>"; };
 		874B4E7C2AAA9FCE00EF847F /* MiPrimerAppEnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiPrimerAppEnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		874B4E7F2AAA9FCE00EF847F /* MiPrimerAppEnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPrimerAppEnSwiftUIApp.swift; sourceTree = "<group>"; };
-		874B4E812AAA9FCE00EF847F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		874B4E812AAA9FCE00EF847F /* HeartAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimationView.swift; sourceTree = "<group>"; };
 		874B4E832AAA9FCF00EF847F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		874B4E862AAA9FCF00EF847F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		874B4E8C2AAA9FCF00EF847F /* MiPrimerAppEnSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPrimerAppEnSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,8 @@
 		874B4E962AAA9FCF00EF847F /* MiPrimerAppEnSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPrimerAppEnSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		874B4E9A2AAA9FCF00EF847F /* MiPrimerAppEnSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPrimerAppEnSwiftUIUITests.swift; sourceTree = "<group>"; };
 		874B4E9C2AAA9FCF00EF847F /* MiPrimerAppEnSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPrimerAppEnSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		874B4EAA2AAAA78500EF847F /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		874B4EAC2AAAB96A00EF847F /* LogInPinterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPinterest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		873A3D922AB3DEFF00C1DF78 /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				873A3D932AB3DF0E00C1DF78 /* User.swift */,
+				873A3D952AB3DF4D00C1DF78 /* UsersView.swift */,
+				873A3D972AB3DF6E00C1DF78 /* UsersViewModel.swift */,
+				873A3D992AB3E45F00C1DF78 /* UsersInteractor.swift */,
+			);
+			path = Agenda;
+			sourceTree = "<group>";
+		};
 		874B4E732AAA9FCE00EF847F = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +117,9 @@
 		874B4E7E2AAA9FCE00EF847F /* MiPrimerAppEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				873A3D922AB3DEFF00C1DF78 /* Agenda */,
 				874B4E7F2AAA9FCE00EF847F /* MiPrimerAppEnSwiftUIApp.swift */,
-				874B4E812AAA9FCE00EF847F /* ContentView.swift */,
+				874B4EA92AAAA76E00EF847F /* DesignSystem */,
 				874B4E832AAA9FCF00EF847F /* Assets.xcassets */,
 				874B4E852AAA9FCF00EF847F /* Preview Content */,
 			);
@@ -125,6 +149,16 @@
 				874B4E9C2AAA9FCF00EF847F /* MiPrimerAppEnSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = MiPrimerAppEnSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		874B4EA92AAAA76E00EF847F /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				874B4E812AAA9FCE00EF847F /* HeartAnimationView.swift */,
+				874B4EAA2AAAA78500EF847F /* LogInView.swift */,
+				874B4EAC2AAAB96A00EF847F /* LogInPinterest.swift */,
+			);
+			path = DesignSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874B4E822AAA9FCE00EF847F /* ContentView.swift in Sources */,
+				874B4EAB2AAAA78500EF847F /* LogInView.swift in Sources */,
+				873A3D982AB3DF6E00C1DF78 /* UsersViewModel.swift in Sources */,
+				874B4E822AAA9FCE00EF847F /* HeartAnimationView.swift in Sources */,
+				874B4EAD2AAAB96A00EF847F /* LogInPinterest.swift in Sources */,
+				873A3D942AB3DF0E00C1DF78 /* User.swift in Sources */,
+				873A3D9A2AB3E45F00C1DF78 /* UsersInteractor.swift in Sources */,
 				874B4E802AAA9FCE00EF847F /* MiPrimerAppEnSwiftUIApp.swift in Sources */,
+				873A3D962AB3DF4D00C1DF78 /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

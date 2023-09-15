@@ -11,7 +11,9 @@ import SwiftUI
 struct MiPrimerAppEnSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let usersInteractor = UsersInteractor.interactor()
+            let usersViewModel = UsersViewModel(usersInteractor: usersInteractor)
+            UsersView(userViewModel: usersViewModel)
         }
     }
 }
